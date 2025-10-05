@@ -1,6 +1,7 @@
-# Railway CLI (via Github Releases) (railway-cli)
 
-Railway CLI allows you to interact with the Railway API via the command line
+# Railway CLI (railway-cli)
+
+Installs the Railway CLI for managing Railway projects
 
 ## Example Usage
 
@@ -14,23 +15,10 @@ Railway CLI allows you to interact with the Railway API via the command line
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select the Railway CLI version you would like to install | string | latest |
+| version | Version of Railway CLI to install. Use 'latest' for the most recent version or specify a version like 'v4.9.0'. | string | latest |
 
-## Authentication
 
-After the container starts, authenticate with Railway:
 
-```bash
-railway login
-```
+---
 
-## Documentation
-
-For complete Railway CLI documentation and commands, visit:
-- [Railway CLI Documentation](https://docs.railway.app/reference/cli-api)
-- [Railway CLI Quick Start](https://docs.railway.app/quick-start)
-
-For all available commands and options, run:
-```bash
-railway --help
-```
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/freshcodes/devcontainer-features/blob/main/src/railway-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
