@@ -1,0 +1,16 @@
+{
+  "test": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "railway-cli": {}
+    }
+  },
+  "test_specific_version": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", 
+    "features": {
+      "railway-cli": {
+        "version": "v4.9.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Railway CLI",
+  "id": "railway-cli",
+  "version": "1.0.0",
+  "description": "Installs the Railway CLI for managing Railway projects",
+  "documentationURL": "https://docs.railway.app/develop/cli",
+  "licenseURL": "https://github.com/freshcodes/devcontainer-features/blob/main/LICENSE",
+  "keywords": [
+    "railway",
+    "cli",
+    "deployment"
+  ],
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["latest", "v4.10.0", "v4.9.0", "v4.8.0"],
+      "default": "latest",
+      "description": "Version of Railway CLI to install. Use 'latest' for the most recent version or specify a version like 'v4.9.0'."
+    }
+  }
+}
